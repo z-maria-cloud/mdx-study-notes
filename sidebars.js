@@ -21,12 +21,20 @@ export default {
       label: 'CS3',
       items: [
         {
+              type: 'doc',
+              id: 'cs3/cs3',
+            },
+        {
           type: 'category',
           label: "Storia",
           items: [
             {
               type: 'doc',
-              id: 'intro',
+              id: 'cs3/storia/medioevo-intro',
+            },
+            {
+              type: 'doc',
+              id: 'cs3/storia/regni-romano-barbarici',
             },
           ]
         },
