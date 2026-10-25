@@ -31,12 +31,55 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-.main-points {
-  border-radius: 5px;
-  border-width: 4px;
-  border-color: var(--yellow);
+.cool-border {
   border-style: none none none solid;
+  border-radius: 5px;
   padding: 1rem;
+  border-width: 5px;
+  margin-bottom: 1rem;
+}
+
+.small-line-height {
+  line-height: 1.4;
+}
+
+.big-icon {
+  margin: 0;
+  margin-right: 0px;
+  font-size: 4rem;
+  margin-right: 1rem;
+}
+
+.big-url {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.external-resource {
+  border-color: var(--docusaurus-progress-bar-color);
+}
+
+.external-resource p, h3 {
+  margin-bottom: 0;
+}
+
+.external-resource-flex {
+  display: flex;
+  align-items: center;
+}
+
+.external-resource-type {
+  color: var(--ifm-color-content-secondary);
+}
+
+.resource-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.main-points {
+  border-color: var(--yellow);
   margin-bottom: 1rem;
   background-color: #fff7ec;
 }
@@ -60,3 +103,5 @@
   display: flex;
   flex-wrap: wrap;
 }
+
+
