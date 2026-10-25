@@ -36,6 +36,10 @@ export default {
               type: 'doc',
               id: 'cs3/storia/regni-romano-barbarici',
             },
+            {
+              type: 'doc',
+              id: 'cs3/storia/carlo-magno',
+            },
           ]
         },
       ],

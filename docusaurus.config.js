@@ -81,7 +81,7 @@ const config = {
             label: 'Appunti',
           },
           {to: 'risorse', label: 'Risorse', position: 'left'},
-
+          {to: 'about', label: 'About', position: 'left'},
         ],
       },
       footer: {
