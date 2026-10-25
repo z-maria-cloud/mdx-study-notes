@@ -18,11 +18,11 @@ export default {
   appuntiSidebar: [
     {
       type: 'category',
-      label: 'CS3',
+      label: '3CS',
       items: [
         {
               type: 'doc',
-              id: 'cs3/cs3',
+              id: '3cs/3cs',
             },
         {
           type: 'category',
@@ -30,11 +30,15 @@ export default {
           items: [
             {
               type: 'doc',
-              id: 'cs3/storia/medioevo-intro',
+              id: '3cs/storia/medioevo-intro',
             },
             {
               type: 'doc',
-              id: 'cs3/storia/regni-romano-barbarici',
+              id: '3cs/storia/regni-romano-barbarici',
+            },
+            {
+              type: 'doc',
+              id: '3cs/storia/carlo-magno',
             },
           ]
         },
