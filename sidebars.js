@@ -18,7 +18,7 @@ export default {
   appuntiSidebar: [
     {
       type: 'category',
-      label: 'CS3',
+      label: '3CS',
       items: [
         {
               type: 'doc',
