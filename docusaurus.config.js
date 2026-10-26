@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'StudyCAT',
   tagline: 'Appunti e risorse per lo studio',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/small_favicon.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -68,10 +68,10 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'Study CAT',
+        title: 'StudyCAT',
         logo: {
           alt: 'Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/cat_transparent_logo.png',
         },
         items: [
           {
