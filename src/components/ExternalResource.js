@@ -17,8 +17,9 @@ export default function ExternalResource(props) {
                 <p className="big-icon">📑</p>
                 <div className="">
                     <a className="big-url" href={props.url}>{props.title}</a>
+                    <p className="external-resource-type small-line">{props.url}</p>
                     <p className="external-resource-type">Tipo: {types[props.type]} - {props.type}</p>
-                    <p className="small-line-height">{props.children}</p>
+                    <p className="small-line">{props.children}</p>
                 </div>
             </div>
         </div>
