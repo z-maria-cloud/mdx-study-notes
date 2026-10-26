@@ -42,6 +42,85 @@ export default {
             },
           ]
         },
+        {
+          type: 'category',
+          label: "Italiano",
+          items: [
+            {
+              type: 'doc',
+              id: '3cs/3cs',
+            },
+
+          ]
+        },
+        {
+          type: 'category',
+          label: "Matematica",
+          items: [
+            {
+              type: 'doc',
+              id: '3cs/3cs',
+            },
+
+          ]
+        },
+
+        {
+          type: 'category',
+          label: "Italiano",
+          items: [
+            {
+              type: 'doc',
+              id: '3cs/3cs',
+            },
+
+          ]
+        },
+        {
+          type: 'category',
+          label: "Cantieri e Sicurezza",
+          items: [
+            {
+              type: 'doc',
+              id: '3cs/3cs',
+            },
+
+          ]
+        },
+        {
+          type: 'category',
+          label: "Progettazione",
+          items: [
+            {
+              type: 'doc',
+              id: '3cs/3cs',
+            },
+
+          ]
+        },
+        {
+          type: 'category',
+          label: "Topografia",
+          items: [
+            {
+              type: 'doc',
+              id: '3cs/3cs',
+            },
+
+          ]
+        },
+
+        {
+          type: 'category',
+          label: "Geopedologia ed Estimo",
+          items: [
+            {
+              type: 'doc',
+              id: '3cs/geopedologia-estimo/minerali',
+            },
+
+          ]
+        },
       ],
     },
 

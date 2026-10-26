@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Appunti',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    src: require('@site/static/img/notes.webp').default,
     description: (
       <>
         Appunti per lo studio impaginati per essere letti facilmente ovunque,
@@ -15,7 +15,7 @@ const FeatureList = [
   },
   {
     title: 'Approfondimenti',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    src: require('@site/static/img/book.webp').default,
     description: (
       <>
         Selezioni di pagine e di spiegazioni aggiuntive da leggere.
@@ -24,7 +24,7 @@ const FeatureList = [
   },
   {
     title: 'Risorse Aggiuntive',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    src: require('@site/static/img/resources.webp').default,
     description: (
       <>
         Elenchi di risorse aggiuntive: siti web, video, documenti, ecc.
@@ -33,11 +33,11 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({title, description, src}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <img className={styles.featureSvg} role="img" src={src} />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
