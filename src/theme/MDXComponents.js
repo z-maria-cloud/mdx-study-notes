@@ -6,6 +6,7 @@ import Highlight from '@site/src/components/Highlight';
 import MainPoints from '@site/src/components/MainPoints';
 import ExternalResource from '@site/src/components/ExternalResource';
 import ResourceGrid from '@site/src/components/ResourceGrid';
+import AttributionImage from '@site/src/components/AttributionImage';
 
 export default {
   // Re-use the default mapping
@@ -16,4 +17,5 @@ export default {
   MainPoints,
   ExternalResource,
   ResourceGrid,
+  AttributionImage,
 };
