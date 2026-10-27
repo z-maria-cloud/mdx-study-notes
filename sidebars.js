@@ -24,6 +24,16 @@ export default {
               type: 'doc',
               id: '3cs/3cs',
             },
+            {
+              type: 'category',
+              label: "Italiano",
+              items: [
+                {
+                  type: 'doc',
+                  id: '3cs/italiano/tema',
+                },
+              ]
+            },
         {
           type: 'category',
           label: "Storia",
@@ -35,6 +45,14 @@ export default {
             {
               type: 'doc',
               id: '3cs/storia/regni-romano-barbarici',
+            },
+            {
+              type: 'doc',
+              id: '3cs/storia/longobardi',
+            },
+            {
+              type: 'doc',
+              id: '3cs/storia/impero-romano-oriente',
             },
             {
               type: 'doc',
