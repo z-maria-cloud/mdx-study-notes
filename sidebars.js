@@ -68,7 +68,23 @@ export default {
           items: [
             {
               type: 'doc',
+              id: '3cs/geopedologia-estimo/tettonica-placche',
+            },
+            {
+              type: 'doc',
+              id: '3cs/geopedologia-estimo/rocce',
+            },
+            {
+              type: 'doc',
               id: '3cs/geopedologia-estimo/minerali',
+            },
+            {
+              type: 'doc',
+              id: '3cs/geopedologia-estimo/suolo',
+            },
+            {
+              type: 'doc',
+              id: '3cs/geopedologia-estimo/suolo-acqua',
             },
 
           ]
