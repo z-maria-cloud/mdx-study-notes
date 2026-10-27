@@ -103,9 +103,9 @@
 
 .main-points-word {
   background-color: var(--ifm-color-primary);
-  padding: 0.3rem;
+  padding: 0.3rem 0.5rem;
   border-radius: 10px;
-  margin: 0 10px 5px 0;
+  margin: 4px;
   font-weight: bold;
   color: white;
   font-size: 0.9rem;
@@ -121,6 +121,7 @@
   border-radius: 10px;
   border-color: var(--docusaurus-highlighted-code-line-bg);
   padding: 1rem;
+  margin: 1rem 0;
 }
 
 .attribution-image-description {

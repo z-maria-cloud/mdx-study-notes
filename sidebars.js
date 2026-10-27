@@ -24,6 +24,16 @@ export default {
               type: 'doc',
               id: '3cs/3cs',
             },
+            {
+              type: 'category',
+              label: "Italiano",
+              items: [
+                {
+                  type: 'doc',
+                  id: '3cs/italiano/tema',
+                },
+              ]
+            },
         {
           type: 'category',
           label: "Storia",
@@ -35,6 +45,14 @@ export default {
             {
               type: 'doc',
               id: '3cs/storia/regni-romano-barbarici',
+            },
+            {
+              type: 'doc',
+              id: '3cs/storia/longobardi',
+            },
+            {
+              type: 'doc',
+              id: '3cs/storia/impero-romano-oriente',
             },
             {
               type: 'doc',
@@ -50,7 +68,27 @@ export default {
           items: [
             {
               type: 'doc',
+              id: '3cs/geopedologia-estimo/tettonica-placche',
+            },
+            {
+              type: 'doc',
+              id: '3cs/geopedologia-estimo/rocce',
+            },
+            {
+              type: 'doc',
               id: '3cs/geopedologia-estimo/minerali',
+            },
+            {
+              type: 'doc',
+              id: '3cs/geopedologia-estimo/suolo',
+            },
+            {
+              type: 'doc',
+              id: '3cs/geopedologia-estimo/suolo-acqua',
+            },
+            {
+              type: 'doc',
+              id: '3cs/geopedologia-estimo/biosfera',
             },
 
           ]
