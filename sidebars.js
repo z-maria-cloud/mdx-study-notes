@@ -86,6 +86,10 @@ export default {
               type: 'doc',
               id: '3cs/geopedologia-estimo/suolo-acqua',
             },
+            {
+              type: 'doc',
+              id: '3cs/geopedologia-estimo/biosfera',
+            },
 
           ]
         },
