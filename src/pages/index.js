@@ -7,6 +7,8 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
+import PageData from './site_update_data.json';
+
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -25,6 +27,11 @@ function HomepageHeader() {
             Appunti 3CS
           </Link>
 
+        </div>
+        <div className="last-update-box">
+          <p className="last-update">Ultimo Aggiornamento:</p>
+          <p className="last-update"><b className="last-update-border">{PageData.date}</b></p>
+          <p className="last-update">Numero totale di parole: {PageData.words}, ovvero {PageData.pages} pagine di un libro</p>
         </div>
       </div>
     </header>

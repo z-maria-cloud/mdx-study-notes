@@ -1,0 +1,212 @@
+
+# Formule per la risoluzione dei triangoli
+
+:::danger[Attenzione]
+
+Questi appunti includono concetti che non abbiamo ancora visto a scuola.
+
+:::
+
+Risolvere un triangolo significa trovare i dati mancanti, dati almeno 2 dati noti.
+
+## Il triangolo
+
+Il triangolo da analizzare verrà quasi sempre definito in questo modo:
+
+### I lati
+
+I punti sono A, B, C;
+
+I lati sono a, b, c;
+
+I lati a e b sono detti **cateti** (sono i 2 lati più corti), mentre il lato c è detto **ipotenusa** (è il lato più lungo).
+
+Assegnamo dei valori ai lati che utilizzeremo per il resto del documento:
+
+![immagine lati](/img/sides.webp)
+
+### Gli angoli
+
+- Punto A → angolo α (alpha)
+- Punto B → angolo β (beta)
+- Punto C → angolo γ (gamma)
+
+![immagine triangolo](/img/triangle.webp)
+
+### Calcolare gli angoli
+
+:::info[Utilizzare l'angolo retto nei calcoli]
+
+I triangoli rettangoli hanno sempre un angolo da 90°. Possiamo usare questo fatto come vantaggio.
+
+Infatti, per qualsiasi triangolo, **la somma degli angoli interni è di 180°.**
+
+Se l'angolo retto vale già 90°, allora anche la somma dei 2 angoli rimanenti è di 90°, visto che **90° + 90° = 180°.**
+
+Quindi, **dato anche solo 1 degli angoli di un triangolo rettangolo (che non sia l'angolo retto), possiamo ricavare tutti gli altri.**
+
+:::
+
+:::tip[Esempio]
+
+Abbiamo a disposizione **soltanto l'angolo α**, che vale 36.8698°;
+
+Sappiamo che **uno degli angoli è l'angolo retto**, che vale 90°; utilizziamo γ come angolo retto.
+
+Quindi l'ultimo angolo, β, si può trovare in questo modo: 90° - α = β, ovvero **90° - 36.8698° = 53.1301°.**
+
+**Otteniamo che l'angolo β vale 53.1301°.**
+
+Possiamo verificare che i calcoli sono corretti sommando tutti gli angoli:
+
+α + β + γ = **36.8698° + 53.1301° + 90° = 180°.**
+
+:::
+
+![immagine angoli](/img/angoli.webp)
+
+:::tip[Formule utili]
+
+α + β = 90°
+
+β = 90° - α
+
+α = 90° - β
+
+:::
+
+## Seno, Coseno, Arcoseno, Arcocoseno
+
+:::tip[La nozione importante]
+
+Le funzioni Seno e Coseno sono rapporti fra i lati di un triangolo retto.
+
+Utilizzando le funzioni ArcoSeno e ArcoCoseno con alcuni dei lati del triangolo, possiamo facilmente ricavare alcuni angoli ignoti.
+
+:::
+
+Le formule Seno e Coseno rappresentano il rapporto tra le lunghezze dei lati di un triangolo rettangolo.
+
+Il rapporto può essere utilizzato per calcolare un angolo opposto ai lati del rapporto.
+
+Queste regole valgono per qualsiasi triangolo rettangolo.
+
+Nel nostro esempio:
+
+- α è l'angolo opposto al lato a
+- β è l'angolo opposto al lato b
+- γ è l'angolo opposto al lato c
+
+![immagine angoli e lati opposti](/img/opposite_angles.webp)
+
+### Seno
+
+La funzione Seno **si trova sulla calcolatrice come "sin"**.
+
+![immagine formula seno](/img/sin_formula.webp)
+
+Il rapporto tra il lato a e il lato c equivale al seno dell'angolo α.
+
+![immagine formula seno](/img/sin.webp)
+
+### Trovare il lato a (cateto)
+
+Se abbiamo l'angolo α e il lato c, possiamo **misurare la lunghezza del lato a.**
+
+![immagine formula seno](/img/sin_side.webp)
+
+### Trovare il lato c (ipotenusa)
+
+Dividendo il lato a e il Seno dell'angolo α, **troviamo la lunghezza del lato c.**
+
+![immagine formula arcoseno](/img/find_ipo_2.webp)
+
+### ArcoSeno
+
+La funzione ArcoSeno è la **funzione inversa** della funzione Seno.
+
+**Si trova sulla calcolatrice come "sin elevato alla meno uno".**
+
+![immagine formula arcoseno](/img/arcsin.webp)
+
+Perchè chi è utile?
+
+Perchè ci permette di trovare un angolo avendo solo i lati come dati disponibili.
+
+### Trovare l'angolo α dati i lati a e c
+
+Infatti, **possiamo trovare l'angolo α avendo a disposizione i lati a e c.**
+
+![immagine formula arcoseno](/img/arcsin_a_c.webp)
+
+Otteniamo **l'ampiezza dell'angolo α, che è appunto 36.8698°.**
+
+### Coseno
+
+Il rapporto tra il lato b e il lato c equivale al seno dell'angolo α.
+
+La funzione Coseno **si trova sulla calcolatrice come "cos"**.
+
+![immagine formula coseno](/img/cos_formula.webp)
+
+Possiamo usarla in modo simile a **sin.**
+
+Il rapporto dei lati b e c corrisponde al Coseno dell'angolo α.
+
+![immagine formula coseno](/img/cos.webp)
+
+### Trovare il lato b (cateto)
+
+Se abbiamo l'angolo α e il lato c, possiamo **misurare la lunghezza del lato b.**
+
+![immagine formula coseno](/img/cos_side.webp)
+
+### Trovare il lato c (ipotenusa)
+
+Dividendo il lato b e il Coseno dell'angolo α, **troviamo la lunghezza del lato c.**
+
+![immagine formula arcoseno](/img/find_ipo_1.webp)
+
+### ArcoCoseno
+
+La funzione ArcoCoseno è la **funzione inversa** della funzione Coseno.
+
+**Si trova sulla calcolatrice come "cos elevato alla meno uno".**
+
+![immagine formula arco coseno](/img/arccos.webp)
+
+Perchè chi è utile?
+
+Perchè ci permette di trovare un angolo avendo solo i lati come dati disponibili.
+
+### Trovare l'angolo β dati i lati a e c
+
+Infatti, **possiamo trovare l'angolo α avendo a disposizione i lati a e c.**
+
+![immagine formula arcoseno](/img/arccos_b_c.webp)
+
+Otteniamo **l'ampiezza dell'angolo β, che è appunto 53.1301°.**
+
+
+
+## Formule e procedure
+
+:::tip[Utilizzo dell'angolo retto per trovare gli altri 2 angoli]
+
+α + β = 90°
+
+β = 90° - α
+
+α = 90° - β
+
+:::
+
+:::tip[Trovare un angolo dati solo 2 lati]
+
+Utilizzare la funzione Arcoseno o ArcoCoseno sul rapporto dei 2 lati dati.
+
+![immagine formula arcoseno](/img/arcsin_a_c.webp)
+
+![immagine formula arco coseno](/img/arccos_b_c.webp)
+
+:::
