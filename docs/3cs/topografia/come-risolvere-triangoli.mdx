@@ -1,0 +1,78 @@
+
+# Come risolvere un triangolo
+
+**Cercate di ottenere i valori di tutti e 3 gli angoli il prima possibile.**
+
+Il primo obiettivo è quello di ricavare tutti gli angoli.
+
+## Passo 1: Se un'angolo α o β è noto
+
+Se uno dei 2 angoli α o β sono noti, utilizzate l'angolo di 90° per ottenere l'angolo rimanente.
+
+:::tip[Trovare gli angoli mancanti dato un angolo non retto]
+
+![immagine formule angoli](/img/formule_angoli.webp)
+
+:::
+
+## Passo 1: Se si hanno solo lati noti
+
+### Se abbiamo l'ipotenusa (c) tra i lati noti
+
+Utilizziamo ArcoSeno e ArcoCoseno.
+
+:::tip[Trovare l'angolo Alpha]
+
+![immagine formula arcoseno](/img/arcsin_a_c.webp)
+
+![immagine formula arcoseno](/img/arccos_b_c2.webp)
+
+:::
+
+:::tip[Trovare l'angolo Beta]
+
+![immagine formula arcoseno](/img/arccos_b_c.webp)
+
+![immagine formula arcoseno](/img/arcsin_b_c.webp)
+
+:::
+
+### Se i lati noti sono solo i cateti (a e b)
+
+Allora usiamo la funzione ArcoTangente, che ci serve solo se non abbiamo a disposizione il lato c, l'ipotenusa.
+
+:::tip[Trovare l'angolo Alpha, angolo opposto al lato a]
+
+Se cerchiamo l'angolo α, allora mettiamo a/b, con a nella parte superiore della frazione, visto che cerchiamo l'angolo opposto al suo lato.
+
+![immagine formula arcoseno](/img/arctan_alpha.webp)
+
+:::
+
+:::tip[Trovare l'angolo Beta, angolo opposto al lato b]
+
+Se cerchiamo l'angolo β, allora mettiamo b/a, con b nella parte superiore della frazione, visto che cerchiamo l'angolo opposto al suo lato.
+
+![immagine formula arcoseno](/img/arctan_beta.webp)
+
+:::
+
+Se cerchiamo l'angolo β, allora mettiamo b/a, con b nella parte superiore della frazione, visto che cerchiamo l'angolo opposto al suo lato.
+
+## Passo 2: Trovare il lato opposto all'angolo noto
+
+**A questo punto dovrete per forza conoscere uno tra gli angoli α o β**, quindi è possibile trovare i lati opposti.
+
+Ovvero:
+
+- Se si conosce l'angolo α, possiamo trovare il lato a
+- Se si conosce l'angolo β, possiamo trovare il lato b
+- Se si conosce l'angolo γ, possiamo trovare il lato c
+
+## Passo 3: trovare finalmente tutti e 3 i lati e tutti e 3 gli angoli
+
+## Passo 4: prova
+
+Sommare gli angoli: la somma degli angoli dev'essere sempre di 180°.
+
+Teorema di Pitagora: utilizzando il teorema di pitagora possiamo verificare che tutti i lati siano giusti.

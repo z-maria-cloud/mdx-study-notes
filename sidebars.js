@@ -102,7 +102,10 @@ export default {
               type: 'doc',
               id: '3cs/topografia/formule-risoluzione-triangoli',
             },
-
+            {
+              type: 'doc',
+              id: '3cs/topografia/come-risolvere-triangoli',
+            },
 
           ]
         },

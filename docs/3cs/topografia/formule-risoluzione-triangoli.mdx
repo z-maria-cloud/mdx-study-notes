@@ -13,7 +13,7 @@ Risolvere un triangolo significa trovare i dati mancanti, dati almeno 2 dati not
 
 Il triangolo da analizzare verrà quasi sempre definito in questo modo:
 
-### I lati
+### I punti e i lati
 
 I punti sono A, B, C;
 
@@ -31,9 +31,15 @@ Assegnamo dei valori ai lati che utilizzeremo per il resto del documento:
 - Punto B → angolo β (beta)
 - Punto C → angolo γ (gamma)
 
+Come per i lati, utilizzeremo questi valori in tutto il documento.
+
+![immagine angoli](/img/angoli2.webp)
+
 ![immagine triangolo](/img/triangle.webp)
 
 ### Calcolare gli angoli
+
+
 
 :::info[Utilizzare l'angolo retto nei calcoli]
 
@@ -63,19 +69,17 @@ Possiamo verificare che i calcoli sono corretti sommando tutti gli angoli:
 
 :::
 
-![immagine angoli](/img/angoli.webp)
+:::tip[Trovare gli angoli mancanti dato un angolo non retto]
 
-:::tip[Formule utili]
-
-α + β = 90°
-
-β = 90° - α
-
-α = 90° - β
+![immagine formule angoli](/img/formule_angoli.webp)
 
 :::
 
 ## Seno, Coseno, Arcoseno, Arcocoseno
+
+Queste funzioni si possono analizzare in dettaglio, ma non è necessario per l'analisi dei triangoli.
+
+Concentriamoci sul capire le basi che ci servono per risolvere i triangoli.
 
 :::tip[La nozione importante]
 
@@ -87,7 +91,7 @@ Utilizzando le funzioni ArcoSeno e ArcoCoseno con alcuni dei lati del triangolo,
 
 Le formule Seno e Coseno rappresentano il rapporto tra le lunghezze dei lati di un triangolo rettangolo.
 
-Il rapporto può essere utilizzato per calcolare un angolo opposto ai lati del rapporto.
+Il rapporto può essere utilizzato per calcolare un angolo opposto ai lati del rapporto, oppure per trovare la lunghezza di alcuni lati.
 
 Queste regole valgono per qualsiasi triangolo rettangolo.
 
@@ -105,17 +109,27 @@ La funzione Seno **si trova sulla calcolatrice come "sin"**.
 
 ![immagine formula seno](/img/sin_formula.webp)
 
-Il rapporto tra il lato a e il lato c equivale al seno dell'angolo α.
+Utilizzando la funzione Seno possiamo fare operazioni sul lato a, il lato c e l'angolo α.
+
+![immagine formula seno](/img/sin_formule_inverse.webp)
+
+Notare che queste formule sono tutte **formule inverse l'una dell'altra.**
+
+Analizziamo queste formule in dettaglio.
+
+### Il rapporto tra il lato a e il lato c
+
+Il rapporto tra il lato a e il lato c equivale al Seno dell'angolo α.
 
 ![immagine formula seno](/img/sin.webp)
 
-### Trovare il lato a (cateto)
+### Trovare il lato a dati l'angolo α e il lato c
 
 Se abbiamo l'angolo α e il lato c, possiamo **misurare la lunghezza del lato a.**
 
 ![immagine formula seno](/img/sin_side.webp)
 
-### Trovare il lato c (ipotenusa)
+### Trovare il lato c dati il lato a e l'angolo α
 
 Dividendo il lato a e il Seno dell'angolo α, **troviamo la lunghezza del lato c.**
 
@@ -129,7 +143,7 @@ La funzione ArcoSeno è la **funzione inversa** della funzione Seno.
 
 ![immagine formula arcoseno](/img/arcsin.webp)
 
-Perchè chi è utile?
+Perchè ci è utile?
 
 Perchè ci permette di trovare un angolo avendo solo i lati come dati disponibili.
 
@@ -151,17 +165,21 @@ La funzione Coseno **si trova sulla calcolatrice come "cos"**.
 
 Possiamo usarla in modo simile a **sin.**
 
+![immagine formula coseno](/img/cos_formule_inverse.webp)
+
+### Il rapporto tra il lato b e il lato c
+
 Il rapporto dei lati b e c corrisponde al Coseno dell'angolo α.
 
 ![immagine formula coseno](/img/cos.webp)
 
-### Trovare il lato b (cateto)
+### Trovare il lato b dati l'angolo α e il lato c
 
 Se abbiamo l'angolo α e il lato c, possiamo **misurare la lunghezza del lato b.**
 
 ![immagine formula coseno](/img/cos_side.webp)
 
-### Trovare il lato c (ipotenusa)
+### Trovare il lato c dati l'angolo α e il lato b
 
 Dividendo il lato b e il Coseno dell'angolo α, **troviamo la lunghezza del lato c.**
 
@@ -175,7 +193,7 @@ La funzione ArcoCoseno è la **funzione inversa** della funzione Coseno.
 
 ![immagine formula arco coseno](/img/arccos.webp)
 
-Perchè chi è utile?
+Perchè ci è utile?
 
 Perchè ci permette di trovare un angolo avendo solo i lati come dati disponibili.
 
@@ -187,26 +205,84 @@ Infatti, **possiamo trovare l'angolo α avendo a disposizione i lati a e c.**
 
 Otteniamo **l'ampiezza dell'angolo β, che è appunto 53.1301°.**
 
+### Particolarità su Seno, Coseno, α, β
 
+Il Seno dell'angolo α equivale al Coseno dell'angolo β.
 
-## Formule e procedure
+![immagine particolarità seno coseno](/img/sin_cos_quirk1.webp)
 
-:::tip[Utilizzo dell'angolo retto per trovare gli altri 2 angoli]
+Allo stesso modo, il Seno dell'angolo β equivale al Coseno dell'angolo α.
 
-α + β = 90°
+![immagine particolarità seno coseno](/img/sin_cos_quirk2.webp)
 
-β = 90° - α
+### Tangente
 
-α = 90° - β
+Si trova come **"tan" sulla calcolatrice**.
+
+![immagine formula arcoseno](/img/tan_key.webp)
+
+La tangente è il **rapporto tra Seno e Coseno di un angolo**.
+
+![immagine formula arcoseno](/img/sin_cos_tan.webp)
+
+Inoltre, la Tangente di un angolo corrisponde al rapporto di alcuni lati.
+
+![immagine formula arcoseno](/img/tan.webp)
+
+### Trovare il lato b dato l'angolo β e il lato a
+
+Possiamo trovare il lato b attraverso la Tangente dell'angolo β e il lato a.
+
+![immagine formula arcoseno](/img/more_tan.webp)
+
+### Cotangente
+
+La funzione Cotangente viene indicata con **cot** sulle calcolatrici che la supportano.
+
+:::danger[La funzione Cotangente sulla calcolatrice]
+
+**Non c'è un tasto per la funzione Cotangente su tantissime calcolatrici.**
+
+La Cotangente si ottiene dividendo 1 e la Tangente dello stesso angolo.
+
+![immagine formula arcoseno](/img/tan_cotan.webp)
 
 :::
 
-:::tip[Trovare un angolo dati solo 2 lati]
+La Cotangente è il rapporto tra Coseno e Seno dello stesso angolo.
 
-Utilizzare la funzione Arcoseno o ArcoCoseno sul rapporto dei 2 lati dati.
+![immagine formula arcoseno](/img/cos_sin_tan.webp)
 
-![immagine formula arcoseno](/img/arcsin_a_c.webp)
+Inoltre, la Cotangente di un angolo corrisponde al rapporto di alcuni lati.
 
-![immagine formula arco coseno](/img/arccos_b_c.webp)
+![immagine formula arcoseno](/img/cotan.webp)
 
-:::
+### Trovare il lato a dato l'angolo β e il lato b
+
+Nota: **utilizzare l'ultima formula quando si utilizza una calcolatrice che non supporta direttamente la funzione Cotangente.**
+
+![immagine formula cotangente](/img/more_cotan.webp)
+
+### ArcoTangente
+
+La funzione ArcoTangente si trova come "**tan elevato alla meno 1**" sulla calcolatrice.
+
+![immagine formula arcoseno](/img/arctan_formula.webp)
+
+### Trovare l'angolo α con i lati a e b
+
+Vogliamo trovare α, angolo opposto al lato a, **quindi in questa formula mettiamo a fratto b.**
+
+![immagine formula arcoseno](/img/arctan_alpha.webp)
+
+### Trovare l'angolo β con i lati a e b
+
+Vogliamo trovare β, angolo opposto al lato b, **quindi in questa formula mettiamo b fratto a.**
+
+![immagine formula arcoseno](/img/arctan_beta.webp)
+
+## Risorse Aggiuntive
+
+<ExternalResource title="ChimicaOnline" type="Lettura" url="https://www.chimica-online.it/download/formule-inverse.htm">Le formule inverse</ExternalResource>
+
+
