@@ -31,7 +31,7 @@ function HomepageHeader() {
         <div className="last-update-box">
           <p className="last-update">Ultimo Aggiornamento:</p>
           <p className="last-update"><b>{PageData.date}</b></p>
-          <p className="last-update">Numero totale di parole: {PageData.words}, ovvero {PageData.pages} pagine di un libro</p>
+          <p className="last-update">Numero totale di parole: {PageData.words}, ovvero {PageData.pages} pagine di un libro!</p>
         </div>
       </div>
     </header>
