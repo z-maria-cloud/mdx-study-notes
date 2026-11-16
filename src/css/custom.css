@@ -31,6 +31,10 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+img {
+  border-radius: 10px;
+}
+
 .no-margin {
   margin: 0;
 }
@@ -131,4 +135,17 @@
   padding: 0.5rem;
   border-radius: 5px;
   margin: 0.5rem 0;
+}
+
+.last-update {
+  margin: 0.5rem;
+}
+
+.last-update-box {
+  margin-top: 1rem;
+}
+
+.last-update-border {
+  border-bottom-style: dashed;
+  border-bottom-width: 2px;
 }

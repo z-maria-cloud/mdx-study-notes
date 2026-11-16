@@ -90,6 +90,22 @@ export default {
               type: 'doc',
               id: '3cs/geopedologia-estimo/biosfera',
             },
+            {
+              type: 'doc',
+              id: '3cs/geopedologia-estimo/cicli-geochimici',
+            },
+          ]
+        },
+
+        {
+          type: 'category',
+          label: "Topografia",
+          items: [
+            {
+              type: 'doc',
+              id: '3cs/topografia/formule-risoluzione-triangoli-spiegazione',
+            },
+
 
           ]
         },
