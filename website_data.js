@@ -1,7 +1,7 @@
 var fs = require('fs');
 const { exec } = require('child_process');
 
-let days = ["Lunedì", "Martedì", "Mercoledì", "Giovedì", "Venerdì", "Sabato", "Domenica"]
+let days = ["Domenica", "Lunedì", "Martedì", "Mercoledì", "Giovedì", "Venerdì", "Sabato"]
 let months = ["Gennaio", "Febbraio", "Marzo", "Aprile", "Maggio", "Giugno", "Luglio", "Agosto", "Settembre", "Ottobre", "Novembre", "Dicembre"]
 
 let data = {}
@@ -11,12 +11,17 @@ let data = {}
 const today = new Date();
 
 let minutes = today.getMinutes()
+let hours = today.getHours()
 
 if (minutes < 10) {
     minutes = `0${minutes}`
 }
 
-let lastModifiedString = `${days[today.getDay()]} ${today.getDate()} ${months[today.getMonth()]} ${today.getFullYear()}, ${today.getHours()}:${minutes}`
+if (hours < 10) {
+    hours = `0${hours}`
+}
+
+let lastModifiedString = `${days[today.getDay()]} ${today.getDate()} ${months[today.getMonth()]} ${today.getFullYear()}, ${hours}:${minutes}`
 
 let wordCount = exec("find ./docs/ -type f -exec wc -w {} + | awk '/total/{print $1}'", (error, stdout, stderr) => {
     if (error) {
