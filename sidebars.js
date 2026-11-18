@@ -32,6 +32,14 @@ export default {
                   type: 'doc',
                   id: '3cs/italiano/tema',
                 },
+                {
+                  type: 'doc',
+                  id: '3cs/italiano/nascita-lingua-italiana',
+                },
+                {
+                  type: 'doc',
+                  id: '3cs/italiano/dante',
+                },
               ]
             },
         {
