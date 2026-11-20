@@ -102,6 +102,10 @@ export default {
               type: 'doc',
               id: '3cs/geopedologia-estimo/cicli-geochimici',
             },
+            {
+              type: 'doc',
+              id: '3cs/geopedologia-estimo/inquinamento-ambientale',
+            },
           ]
         },
 
