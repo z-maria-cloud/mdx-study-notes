@@ -40,6 +40,10 @@ export default {
                   type: 'doc',
                   id: '3cs/italiano/dante',
                 },
+                {
+                  type: 'doc',
+                  id: '3cs/italiano/dante-influenze',
+                },
               ]
             },
         {
