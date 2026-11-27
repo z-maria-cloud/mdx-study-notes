@@ -44,6 +44,10 @@ export default {
                   type: 'doc',
                   id: '3cs/italiano/dante-influenze',
                 },
+                {
+                  type: 'doc',
+                  id: '3cs/italiano/divina-commedia',
+                },
               ]
             },
         {
